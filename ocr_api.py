@@ -4,7 +4,7 @@ import requests
 import json  
 
 API_URL = "https://lbfdk7jecaaep333.aistudio-app.com/ocr"
-TOKEN = "0633dbcbb9d60e0d2cc252429c83bab34993a0df"
+TOKEN = ""
 
 file_path = "industria_aeroespacial.pdf"  
 input_filename = os.path.splitext(os.path.basename(file_path))[0]
@@ -102,4 +102,5 @@ with open(json_filename, "w", encoding="utf-8") as f:
     json.dump(full_output_json, f, indent=4, ensure_ascii=False)
 
 print(f"Resultados detallados (JSON) guardados en: {json_filename}")
+
 print("Procesamiento completado.")
