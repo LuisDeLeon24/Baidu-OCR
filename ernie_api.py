@@ -5,7 +5,7 @@ import json
 import re
 
 API_URL = "https://aistudio.baidu.com/llm/lmapi/v3/chat/completions"
-TOKEN = "0633dbcbb9d60e0d2cc252429c83bab34993a0df"
+TOKEN = ""
 
 def ernie_api():
     md_path = Path("output/output.txt")
@@ -72,3 +72,4 @@ Markdown:
 
 if __name__ == "__main__":
     ernie_api()
+
