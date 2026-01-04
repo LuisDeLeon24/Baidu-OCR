@@ -16,7 +16,10 @@ def ernie_api():
 
     prompt = f"""
 Convierte el siguiente markdown en una página web HTML moderna y con bastante diseño acorde al Markdown piensa bastante en la estetica de la pagina,
-el html y el css se guardan en el mismo directorio asegurate de que siempre funcionen.
+el html y el css se guardan en el mismo directorio asegurate de que siempre funcionen, Ademas asegurate de siempre poner una marca de agua de ERNIE y PaddleOCR-VL
+con los siguientes linkes
+PaddleOCR-VL: https://github.com/PaddlePaddle/PaddleOCR
+ERNIE: https://huggingface.co/BAIDU
 Devuelve solo un JSON con dos campos: "html" y "css".
 
 Markdown:
